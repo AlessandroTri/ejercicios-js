@@ -7,11 +7,10 @@ const toys = [
   { id: 40, name: "El gato felix", sellCount: 35 },
 ];
 
-for (const objeto of toys) {
-
-    if (objeto.sellCount > 15){
-       popularToys.push(objeto);
-    }
-
+const nuevaLista =[]
+for (const toy of toys) {
+  if (!toy.name.includes("gato")){
+    nuevaLista.push(toy);
+  }
 }
-console.log(popularToys);
+console.log(nuevaLista);
