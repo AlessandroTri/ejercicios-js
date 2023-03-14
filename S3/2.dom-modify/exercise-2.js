@@ -1,5 +1,5 @@
-let dinamic$$ =  document.createElement ('div');
+let div$$ =  document.createElement ('div');
 let pedo$$ = document.createElement ('p');
 
-dinamic$$.appendChild (pedo$$);
-document.body.appendChild (dinamic$$);
+div$$.appendChild (pedo$$);
+document.body.appendChild (div$$);

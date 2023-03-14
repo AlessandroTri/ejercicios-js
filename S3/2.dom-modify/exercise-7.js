@@ -1,9 +1,8 @@
 
+let eliminar = document.querySelectorAll('.fn-remove-me');
 
-
-let eliminate = document.querySelectorAll('.fn-remove-me');
-for (let i=0; i<eliminate.length; i++) {
-  eliminate[i].remove();  
+for (let i=0; i<eliminar.length; i++) {
+  eliminar[i].remove();  
 }
     
 

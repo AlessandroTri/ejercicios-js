@@ -1,4 +1,4 @@
-let dinamic$$ =  document.createElement ('div');
+let div$$ =  document.createElement ('div');
 
-document.body.appendChild (dinamic$$);
+document.body.appendChild (div$$);
 
