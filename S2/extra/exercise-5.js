@@ -1,6 +1,7 @@
 function rollDice(caras){
-    console.log(Math.floor(Math.random() * caras) + 1 );
+    return Math.floor(Math.floor(Math.random() * caras) );
 
 }
-rollDice(3);
-rollDice(10);
+
+
+console.log(rollDice(5))
