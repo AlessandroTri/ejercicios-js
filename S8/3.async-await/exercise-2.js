@@ -15,3 +15,4 @@ function getCharacters() {
   
   
   getCharacters2();
+  

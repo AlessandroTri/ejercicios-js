@@ -9,12 +9,12 @@ fetch("https://api.agify.io?name=michael")
   })
   .catch((err) => console.log(err));
 
-//forma facil
+// forma facil
 //     const get = async () => {
 //    try {
 //  const respuesta = await fetch ("https://api.agify.io?name=michael");
-//const res = await respuesta.json();
-//console.log(res);
+// const res = await respuesta.json();
+// console.log(res);
 
 //    }catch (error) {
 //   console.log(error);

@@ -30,12 +30,13 @@ const users = [
     },
 ]
 
-const sonido = [];
+const sonido = {};
 
 for (const i of users) {
     for (const sound in i.favoritesSounds) {
         
         if(!sonido[sound]){
+            
             sonido[sound] = 1;
             
         } else {

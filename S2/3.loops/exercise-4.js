@@ -6,13 +6,22 @@ const toys = [
   { id: 40, name: "El gato felix" },
 ];
 
+// for (const toy of toys) {
+//   if (toy.name.includes("gato")) {
+//     let cont = toys.index0f(toy);
+//     delete toys[cont];
+//   }
+// }
+// console.log(toys);
 
 
+
+
+const nuevalista = [];
 for (const toy of toys) {
-    if (toy.name.includes("gato")) {
-      let cont = toys.index0f(toy);
-    delete toys[cont]; 
-    }
-  
-}
- console.log(toys);
+  if (!toy.name.includes("gato")) {
+    nuevalista.push(toy);
+  }
+};
+
+console.log(nuevalista);
